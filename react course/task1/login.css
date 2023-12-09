@@ -5,16 +5,16 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    /*background-color:#F3B664 ;*/
-    background: #fffc00;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    color: darkgray;
+    
 }
+
+
+
 
 div {
     text-align: center;
-    background-color: #F1EB90;
+    background-color: black;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 6.5px 1.7px 5.3px -11px rgba(0, 0, 0, 0.053),
@@ -37,4 +37,8 @@ div {
 input::placeholder, textarea::placeholder {
     color:black;
     font-weight: 80px;
+}
+
+.radio{
+    color: white;
 }
