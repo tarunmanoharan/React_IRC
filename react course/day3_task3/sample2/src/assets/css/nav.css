@@ -12,6 +12,7 @@ body{
     height: 100vh;
     background-color:gray;
     justify-content: center;
+    margin: 0;
     
 }
 
@@ -25,13 +26,24 @@ body{
 
 .nav-links{
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   background:black;
-  padding: 20px 20px;
+  padding: 10px 10px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 
 }
+
+
+.nav-links .center
+{
+  margin: 2px auto;
+  text-align: center;
+  justify-content: center;
+  flex: 1;
+}
+
 .nav-links li{
   list-style: none;
   margin: 0 12px;
@@ -69,6 +81,14 @@ body{
   transform: translateX(-50%);
   
 }
+
+@media screen and(max-width: 600px) {
+   .nav-links li a{
+    font-size: 24px;
+   }
+  
+}
+
 
 /* end of header */
 
